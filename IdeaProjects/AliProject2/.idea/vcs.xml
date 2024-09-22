@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EurekaServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Gatway_api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/client-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/plat_de_jour" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reservation_service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restaurant-frontend" vcs="Git" />
+  </component>
+</project>

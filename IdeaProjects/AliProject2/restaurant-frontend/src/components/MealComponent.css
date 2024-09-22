@@ -1,0 +1,85 @@
+.meal-page {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.meal-header {
+    margin-bottom: 40px;
+}
+
+.meal-title {
+    font-size: 2.5rem;
+    color: #ff4757; /* Rouge similaire à la démo */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.meal-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.meal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.meal-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.meal-item:hover {
+    transform: scale(1.05);
+}
+
+.meal-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.meal-details {
+    padding: 20px;
+}
+
+.meal-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.meal-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.meal-price {
+    font-size: 1.2rem;
+    color: #ff4757;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.order-btn {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #ff6b81;
+}

@@ -1,0 +1,103 @@
+/* src/assets/HomeStyles.css */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.header-content {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.home-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #ff6b81;
+}
+
+.home-links {
+    margin-bottom: 50px;
+}
+
+.link-btn {
+    margin: 0 15px;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #ff4757;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.link-btn:hover {
+    background-color: #ff4757;
+    color: #fff;
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logout-btn-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #ff6b81;
+}
